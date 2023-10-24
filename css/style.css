@@ -25,7 +25,7 @@ p {
   color: #fff !important;
 }
 
-::selection {
+:selection {
   background-color: #ee8683;
   color: #fff;
   /* text-shadow: 4px 2px 2px #FFFD3A; */
@@ -297,8 +297,26 @@ header {
 /* Work */
 .work .card-wrapper {
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+  
 }
+.work .img-center {
+	    display: flex;
+		 flex: 0 0 0 100%;
+}
+.work {
+	height: auto;
+	margin: 0 0 280px 0;
+	
+}
+
+
+.img-fluid {
+    max-width: 100%;
+   max-height: 60%;
+}
+
 /* Contact */
 .contact .r-icon {
   font-size: 50px;
